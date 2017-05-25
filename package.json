@@ -1,0 +1,14 @@
+{
+  "name": "ts-template-literal-computed-property-repro",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Giovanni Gonzaga <giovanni@buildo.io>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^2.3.3"
+  }
+}
