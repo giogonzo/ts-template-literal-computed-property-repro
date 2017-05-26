@@ -1,5 +1,11 @@
 ```sh
-npm run build && cat index.js
+> cat index.ts
+
+const key = `key`;
+const a = ({ [key]: renamed }) => renamed;
+const b = ({ [`key`]: renamed }) => renamed;
+
+> npm run build && cat index.js
 
 "use strict";
 var key = "key";
